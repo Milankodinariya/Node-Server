@@ -1,6 +1,6 @@
-var express    = require('express');
-var router = express.Router()
-var Candidate     = require('../app/models/candidate');
+const express    = require('express');
+const router = express.Router()
+const Candidate     = require('../app/models/candidate');
 
 
 /*router.post('/',  async (req, res, next) => {

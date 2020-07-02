@@ -1,6 +1,6 @@
-var express    = require('express');
-var router = express.Router();
-var Employee     = require('../app/models/employee');
+const express    = require('express');
+const router = express.Router();
+const Employee     = require('../app/models/employee');
 
 router.post('/',  async (req, res, next) => {
   try {
